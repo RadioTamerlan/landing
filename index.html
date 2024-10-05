@@ -18,6 +18,20 @@
             padding: 20px;
             text-align: center;
         }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .hero {
             background-image: url('https://via.placeholder.com/1600x900');
             height: 600px;
@@ -98,18 +112,35 @@
         <h2>Tamerlan Mustafaev - Pioneering AI in Radiology</h2>
     </header>
 
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <section class="hero">
         <h1>Transforming Medical Imaging with AI</h1>
     </section>
 
-    <section class="content">
+    <section id="about" class="content">
         <h2>About Me</h2>
-        <img src="profile.jpg" alt="Tamerlan Mustafaev" class="profile-image">
+        <img src="IMAGE-2023-06-22.jpg" alt="Tamerlan Mustafaev" class="profile-image">
         <p>I am Tamerlan Mustafaev, a dedicated researcher at the intersection of radiology and artificial intelligence. My work focuses on leveraging advanced AI techniques to improve medical imaging and provide better diagnostic tools for healthcare professionals. I am passionate about pushing the boundaries of technology to make impactful changes in clinical radiology.</p>
         <div class="cta-buttons">
             <a href="https://scholar.google.com/citations?user=yhS1dF8AAAAJ&hl=ru" class="cta-button">My Google Scholar</a>
             <a href="https://www.linkedin.com/in/tamerlan-mustafaev-385b54251/" class="cta-button">Connect on LinkedIn</a>
         </div>
+    </section>
+
+    <section id="projects" class="content">
+        <h2>Projects</h2>
+        <p>Here, you can add details about your various projects related to AI in radiology, including links and descriptions of notable achievements.</p>
+    </section>
+
+    <section id="publications" class="content">
+        <h2>Publications</h2>
+        <p>A list of your most impactful research publications, including titles, publication dates, and links to the papers if available.</p>
     </section>
 
     <footer>
